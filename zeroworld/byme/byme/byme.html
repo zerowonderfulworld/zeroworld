@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>丑萌特工队</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+	*{margin:0; padding:0;}
+	a{text-decoration: none;}
+	img{max-width: 100%; height: auto;}
+	.weixin-tip{display: none; position: fixed; left:0; top:0; bottom:0; background: rgba(0,0,0,0.8); filter:alpha(opacity=80);  height: 100%; width: 100%; z-index: 100;}
+	.weixin-tip p{text-align: center; margin-top: 10%; padding:0 5%;}
+	</style>
+</head>
+
+
+
+<body>
+
+<div class="weixin-tip">
+	<p>
+		<img src="./images/live_weixin.png" alt="微信打开"/>
+	</p>
+</div>
+<script type="text/javascript">
+	$(window).on("load",function(){
+		var winHeight = $(window).height();
+		function is_weixin() {
+			var ua = navigator.userAgent.toLowerCase();
+			if (ua.match(/MicroMessenger/i) == "micromessenger") {
+				return true;
+			} else {
+				return false;
+			}
+		}
+		var isWeixin = is_weixin();
+		if(isWeixin){
+			$(".weixin-tip").css("height",winHeight);
+			$(".weixin-tip").show();
+		}
+	})
+</script>
+
+<div id="heads" class="header">
+	<div class="container">
+		    <img  src="./images/logo.png" title="byme" />
+		    <nav class="top-nav">
+				<ul class="top-nav">
+					<li class="page-scroll"><a href="#down">游戏下载</a><span> </span></li>
+					<li class="page-scroll"><a href="#jianjie">游戏简介</a><span> </span></li>
+					<li class="page-scroll"><a href="#contact">联系我们</a></li>
+				</ul>
+			</nav>
+	</div>
+</div>
+
+
+
+<div style="width:90%;margin-left: 128px; margin-top: 40px;">
+	<div style="float:left;margin-right:40px; class="img-shouji">
+		<img src="./images/shouji.png" title="shouji" />
+</div>
+
+	<div>
+		<span> <img style="vertical-align: middle;" src="./images/fish.png" title="fish" /> 丑萌特工队</span>
+		<div>
+			<span style="font-size:35px;">游戏简介</span>
+			<div style="width:1000px;">
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;这是我们的游戏这是我们的游戏这是我们的游戏这是我们的游戏这是我们的游戏这是我们的游戏这是我们的游戏这是我们的游戏这是我们的游戏这是我们的游戏。</p>
+			</div>
+			<div>
+				<img style="vertical-align: middle;" src="./images/erweima1.png"/>
+				<a style="color: #000000;text-decoration: none;margin-top:20px;" class="btn" href="#"> 点击下载</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div style="margin: 0 auto;width: 38%; margin-top: 100px;" class="footer">
+	<div class="footerbanner">
+		<div class="container">
+			<div style="text-align: center;" class="contectUs-text">
+				<h3 style="margin: 12px 0;">联系我们</h3>
+				<span class="tel">Tel : 400-811-2233 &nbsp;</span>
+				<span class="email">Email : bymeStudio@gmail.com</span>
+			</div>
+			<p style="text-align: center; font-size:12px;">&copy;2015 All rights reserved.</p>
+		</div>
+	</div>
+</div>
+
+
+</body>
+              
+ 
+		      
+			<!----//End-slider---->
+            <!--功能简介部分-->
+				<!--<div class="gnjj">-->
+	                 <!--<div class="gnjj-title">-->
+                     <!--<h1>功能简介</h1>-->
+					 <!--</div>-->
+    <!-- -->
+               <!--<div class="gnjj-text">-->
+    	<!--这个游戏的正确玩法是这样的哟~<br/>-->
+      	<!--这个游戏的正确玩法是这样的哟~<br/>-->
+        <!--这个游戏的正确玩法是这样的哟~<br/>-->
+        <!--这个游戏的正确玩法是这样的哟~-->
+    <!--</div>-->
+<!--</div>-->
+				<!--<div class="footer">-->
+				   <!--<div class="footerbanner">-->
+					  <!--<div class="container"> -->
+					     <!--<div class="contectUs-text">-->
+					     <!--<h3>联系我们</h3>-->
+							<!--<span class="tel">Tel:400-811-2233</span>-->
+                            <!--<span class="email">Email:bymeStudio@gmail.com</span>-->
+						<!--</div>-->
+						  <!-- -->
+						 <!--<p>&copy;2015 All rights reserved.</p>-->
+					 <!--</div>-->
+				 <!--</div>-->
+           <!--</div>-->
+</html>
